@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+    <style>
+        body{
+            background-color: black;
+            background-image: url(basic.jpg);
+         
+        }
+        .body{
+            width: 70%;
+            height: 500px;
+            border: 2px solid #1f1e1e;
+            margin:  auto;
+            margin-top: 90px;
+            background-color: #071249;
+            border-radius: 20px;
+            box-shadow: 100px #be8484;
+           
+        }
+
+        .body .header{
+        width: 100%;
+         height: 90px;
+        /* border: 1px solid #fff; */
+        display: flex;
+        justify-content: space-around;
+        }
+
+    .header .part{
+        width: 100%;
+        height: 90px;
+        /* border: 1px solid #fff; */
+    }
+    .header .part h2{
+        text-align: center;
+        color: #fff;
+        font-family: sans-serif;
+        font-weight: 900;
+    }
+    .header .part h2:hover{
+        color: #cd33a1;
+    }
+
+    .body .content{
+        width: 100%;
+         height: 410px;
+        /* border: 1px solid #fff; */
+        display: flex;
+        justify-content: space-around;
+        }
+.content .content_left{
+    width: 50%;
+    height: 410px;
+    /* border: 1px solid #fff; */
+    padding-left: 3.5rem;
+}
+.content_left h2{
+    color: #cf30ca;
+    /* margin: 20px; */
+    font-family: sans-serif;
+    font-weight: 900;
+}
+.content_left h3{
+    color: #fff;
+    /* margin: 20px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+    .input1{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+       
+    }
+    #gwer{
+        width: 76%;
+    }
+    .input{
+        width: 45%;
+   
+    }
+  .content .content_right{
+    width: 50%;
+    height: 410px;
+    /* border: 1px solid #fff; */
+  }
+  .content .content_right h2{
+   color: #cd33a1;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 900;
+   margin-left: 200px;
+  }
+  .content .content_right h4{
+   color: #eae4e8;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 100;
+   margin-left: 200px;
+  }
+  .content .content_right h2{
+   color: #c43494;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 900;
+   margin-left: 200px;
+  }
+.content_left .submit{
+margin-top: 5px;
+background-color: #c43494;
+border-radius: 5px;
+}
+.icon{
+   
+    
+}
+.icon img{
+    width: 30px;
+    height: 30px;
+    margin-left: 200px;
+    display: flex;
+    /* border-radius: 5px; */
+}
+
+    </style>
+</head>
+<body>
+    <div class="body">
+        <div class="header">
+           <div class="part">
+            <h2>Home</h2>
+           </div>
+           <div class="part">
+            <h2>Blog</h2>
+           </div>
+           <div class="part">
+            <h2>About</h2>
+           </div>
+           <div class="part">
+            <h2>Contact</h2>
+           </div>
+        </div>
+        <div class="content">
+            <div class="content_left">
+                <div class="h2">
+                    <h2>JUST SAY HELLO!</h2>
+                </div>
+                <div class="h3">
+                    <h3>JUST LET US KNOW MORE ABOUT YOU!</h3>
+                </div>
+                <div class="input1">
+                    <input type="text" placeholder="FIRST NAME">
+                    <input type="text" placeholder="LAST NAME">
+                    <input type="text" placeholder="MAIL">
+                    <input type="text" placeholder="CONTACT">
+                   <textarea name="Message" id="gwer" cols="30" rows="10">Message</textarea>
+                   </div>
+                <div>
+                    <input type="Submit" value="submit" class="submit">
+                </div>
+            </div>
+            <div class="content_right">
+                <div class="contact">
+                    <h2>CONTACT
+                        INFORMATION
+                    </h2>
+
+                    <h4>CSED,MNNIT ALLAHABAD
+                        PRAYAGRAJ-211004
+                    </h4>
+                    <h4>CALL US:+91-4794685713</h4>
+                
+            <h2>FOLLOW US</h2>
+                </div>
+                <div class="icon">
+                    <img src="facebook.png" alt="">
+                    <img src="insta.avif" alt="">
+                    <img src="linked.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
